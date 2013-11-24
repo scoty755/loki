@@ -238,7 +238,7 @@ struct target targets[] = {
     {
 		.vendor = "KDDI",
 		.device = "LG G2",
-		.build = "HGL2210a",
+		.build = "LGL2210a",
 		.check_sigs = 0xf813458,
 		.hdr = 0xf8358a4,
 		.lg = 1,
