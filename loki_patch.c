@@ -227,22 +227,6 @@ struct target targets[] = {
 		.hdr = 0xf9041c0,
 		.lg = 1,
 	},
-    {
-		.vendor = "DoCoMo",
-		.device = "LG G2",
-		.build = "L01F10c",
-		.check_sigs = 0xf813538,
-		.hdr = 0xf8d51c4,
-		.lg = 1,
-	},
-    {
-		.vendor = "KDDI",
-		.device = "LG G2",
-		.build = "LGL2210a",
-		.check_sigs = 0xf813458,
-		.hdr = 0xf8358a4,
-		.lg = 1,
-	},
 	{
 		.vendor = "KT or LGU",
 		.device = "LG G2",
