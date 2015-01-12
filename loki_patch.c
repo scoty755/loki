@@ -69,6 +69,14 @@ struct target targets[] = {
 		.lg = 0,
 	},
 	{
+		.vendor = "T-Mobile",
+		.device = "LG Optimus F3Q",
+		.build = "D52010c",
+		.check_sigs = 0x88f1079c,
+		.hdr = 0x88f64508,
+		.lg = 1,
+	},
+	{
 		.vendor = "DoCoMo",
 		.device = "LG Optimus G",
 		.build = "L01E20b",
@@ -349,6 +357,14 @@ struct target targets[] = {
 		.lg = 1,
 	},
 	{
+		.vendor = "Verizon",
+		.device = "LG G Pad 8.3",
+		.build = "VK81010c",
+		.check_sigs = 0x88f11080,
+		.hdr = 0x88fd81b8,
+		.lg = 1,
+	},
+	{
 		.vendor = "International",
 		.device = "LG Optimus L9 II",
 		.build = "D60510a",
@@ -381,6 +397,14 @@ struct target targets[] = {
 		.lg = 1,
 	},
 	{
+		.vendor = "KDDI",
+		.device = "LG",
+		.build = "LGL21",
+		.check_sigs = 0x88f10218,
+		.hdr = 0x88f50198,
+		.lg = 1,
+	},
+	{
 		.vendor = "KT",
 		.device = "LG Optimus GK",
 		.build = "F220K",
@@ -402,6 +426,22 @@ struct target targets[] = {
 		.build = "LS840ZVK",
 		.check_sigs = 0x4010fe18,
 		.hdr = 0x40194198,
+		.lg = 1,
+	},
+	{
+		.vendor = "International",
+		.device = "LG G Flex",
+		.build = "D95510a",
+		.check_sigs = 0xf812490,
+		.hdr = 0xf8c2440,
+		.lg = 1,
+	},
+	{
+		.vendor = "Sprint",
+		.device = "LG Mach",
+		.build = "LS860ZV7",
+		.check_sigs = 0x88f102b4,
+		.hdr = 0x88f6c194,
 		.lg = 1,
 	},
 };
